@@ -7,7 +7,7 @@ The back-end is developed using Node.js, Express, MongoDB, Mongoose ORM, Bcrypt.
         2.Displaying the progress of the upload to the database.
         3.Prevents reuploading same csv file to the server.
         4.Error messages displayed in the UI in while encountering errors.
-## Teck Stack
+## Tech Stack
 ## Frontend
 	1.HTML
 	2.CSS
