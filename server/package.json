@@ -1,0 +1,25 @@
+{
+  "name": "grooton-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "fast-csv": "^4.3.6",
+    "mongoose": "^5.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}

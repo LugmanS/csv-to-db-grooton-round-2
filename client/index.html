@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="card">
+    <div class="container">
+      <img src="folder.png" alt="" id="file-icon">
+      <div class="heading">
+        <h1>Upload Files</h1>
+        <h3>Upload your .csv files to the Database</h3>
+      </div>
+      <form class="file-form" id="upload-form">
+        <input type="file" name="filename" class="input-field" id="file-input">
+        <button class="btn1" type="submit">Upload</button>
+      </form>
+      <div class="info">
+        <h1 id="upload-status" class="d">File upload successful</h1>
+      </div>
+      <div id="save-html">
+        <form id="save-form">
+          <button class="btn2" type="submit">Save to DB</button>
+        </form>
+        <h1 id="save-progress"></h1>
+        <div id="myProgress">
+          <div id="myBar"></div>
+        </div>
+        <h1 id="timeTaken" class="d"></h1>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
