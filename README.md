@@ -8,11 +8,11 @@ The back-end is developed using Node.js, Express, MongoDB, Mongoose ORM, Bcrypt.
         3.Prevents reuploading same csv file to the server.
         4.Error messages displayed in the UI in while encountering errors.
 ## Tech Stack
-## Frontend
+### Frontend
 	1.HTML
 	2.CSS
 	3.Javascript
-## Backend
+### Backend
 	1.Node.js
 	2.Express // Run server
 	3.MongoDB // Database 
