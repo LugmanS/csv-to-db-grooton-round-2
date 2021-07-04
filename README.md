@@ -3,10 +3,10 @@ This web application allows users to upload .csv files to the server, where the 
 The application's front-end is developed using HTML, CSS and Javascript. The front-end application makes api requests to the server end points for uploading data and also receiving information about the uploads.
 The back-end is developed using Node.js, Express, MongoDB, Mongoose ORM, Bcrypt.js, csvtojson, express-fileUpload.<br>
 ## Features
-        1.Encryption of the password column using Bcrypt.js package.
-        2.Displaying the progress of the upload to the database.
-        3.Prevents reuploading same csv file to the server.
-        4.Error messages displayed in the UI in while encountering errors.
+	1.Encryption of the password column using Bcrypt.js package.
+	2.Displaying the progress of the upload to the database.
+	3.Prevents reuploading same csv file to the server.
+	4.Error messages displayed in the UI in while encountering errors.
 ## Tech Stack
 ### Frontend
 	1.HTML
@@ -20,3 +20,21 @@ The back-end is developed using Node.js, Express, MongoDB, Mongoose ORM, Bcrypt.
 	5.Bacrypt.js // To hash the password 
 	6.csvtojson // To convert csv file to json
 	7.express-fileUpload // For easier file uploads to the server
+
+## File Structure
+	📦client
+	 ┣ 📜folder.png
+	 ┣ 📜index.html
+	 ┣ 📜main.js
+	 ┗ 📜style.css
+	📦server
+	 ┣ 📂models
+	 ┃ ┗ 📜Main.js
+	 ┣ 📂routes
+	 ┃ ┗ 📜main.js
+	 ┣ 📂uploads
+	 ┃ ┗ 📜userdata.csv
+	 ┣ 📜.env
+	 ┣ 📜index.js
+	 ┣ 📜package-lock.json
+	 ┗ 📜package.json
