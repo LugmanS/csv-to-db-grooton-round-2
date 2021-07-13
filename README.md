@@ -19,7 +19,7 @@ The back-end is developed using Node.js, Express, MongoDB, Mongoose ORM, Bcrypt.
 	4.Mongoose // ORM
 	5.Bacrypt.js // To hash the password 
 	6.csvtojson // To convert csv file to json
-	7.express-fileUpload // For easier file uploads to the server
+	7.express-fileUpload // For easier file uploads to the server in backend
 
 ## File Structure
 	📦client
